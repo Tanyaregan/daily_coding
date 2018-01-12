@@ -16,10 +16,10 @@ def reverse_and_interleave_list(lst):
         into the first half.
 
     >>> reverse_and_interleave_list([1, 2, 3, 4, 5])
-        [1, 5, 2, 4, 3]
+    [1, 5, 2, 4, 3]
 
         reverse_and_interleave_list([1, 2, 3, 4])
-        [1, 4, 2, 3]
+    [1, 4, 2, 3]
 
     """
 
@@ -34,15 +34,7 @@ def reverse_and_interleave_list(lst):
 
 def reverse_and_interleave_stack(stack):
     """Given a stack of elements, interleave the second half reversed
-        into the first half using a queue.
-
-    >>> reverse_and_interleave_list([1, 2, 3, 4, 5])
-        [1, 5, 2, 4, 3]
-
-        reverse_and_interleave_list([1,2,3,4])
-        [1, 4, 2, 3]
-
-    """
+        into the first half using a queue. """
 
 # I'm going to pseudocode this, I'm not sure if it's possible
 # to do it this way with Python.
